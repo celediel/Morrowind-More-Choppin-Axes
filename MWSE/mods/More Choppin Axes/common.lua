@@ -7,8 +7,8 @@ this.version = "1.0.0"
 this.configString = "MoreChoppinAxes"
 
 this.fixTypesDescription =
-    "Boost minimum: Set minimum chop damage to +1 minimum slash damage. If slash damage is much higher " ..
-        "than chop damage, this won't effect the default attack. Use a different fix method in that case.\n" ..
+    "Boost minimum: Set minimum chop damage to +1 minimum slash damage. If maximum slash damage is higher " ..
+        "than maximum chop damage, this won't effect the default attack. Use a different fix method in that case.\n" ..
         "Side effect: boosts minimum damage, so more damage potential overall.\n\n" ..
         "Boost maximum: Sets chop damage to equal slash damage, then reduce maximum slash damage by 1.\n" ..
         "Side effect: boosts maximum chop to match maximum slash, so if slash damage and chop damage " ..
