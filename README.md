@@ -9,7 +9,7 @@ Because axes should chop, right?
 There are three options:
 
 **Boost minimum**: Set minimum chop damage to +1 minimum slash damage. If maximum slash damage is higher than maximum chop damage,
-this won't effect the default attack. Use a different fix method in that case.
+this won't affect the default attack. Use a different fix method in that case.
 
 *Side effect*: boosts minimum damage, so more damage potential overall.
 
