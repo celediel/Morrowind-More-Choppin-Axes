@@ -1,4 +1,4 @@
-local common = require("More Choppin Axes.common")
+local common = require("celediel.More Choppin Axes.common")
 
 local currentConfig = nil
 

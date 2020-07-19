@@ -1,5 +1,5 @@
-local common = require("More Choppin Axes.common")
-local config = require("More Choppin Axes.config").getConfig()
+local common = require("celediel.More Choppin Axes.common")
+local config = require("celediel.More Choppin Axes.config").getConfig()
 
 -- local restartMessage = "Restart the game or click the 'Apply Fixes' button."
 

@@ -1,5 +1,5 @@
-local common = require("More Choppin Axes.common")
-local config = require("More Choppin Axes.config").getConfig()
+local common = require("celediel.More Choppin Axes.common")
+local config = require("celediel.More Choppin Axes.config").getConfig()
 
 local function onInitialized()
     if not config.enabled then return end
@@ -18,5 +18,5 @@ end
 event.register("initialized", onInitialized)
 
 event.register("modConfigReady", function()
-    mwse.mcm.register(require("More Choppin Axes.mcm"))
+    mwse.mcm.register(require("celediel.More Choppin Axes.mcm"))
 end)
